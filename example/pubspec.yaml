@@ -1,0 +1,27 @@
+name: test_js_runtime
+description: An application to test js_runtime
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  js_runtime:
+    path: ../
+  # https://pub.dev/packages/js
+  js: ^0.6.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_lints
+  flutter_lints: 2.0.1
+
+flutter:

@@ -1,0 +1,33 @@
+name: js_runtime
+description: JS Runtime for mobile and web
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_js
+  flutter_js: ^0.6.0
+    # git:
+    #   url: https://github.com/abner/flutter_js.git
+  # https://pub.dev/packages/js
+  js: ^0.6.3
+  # https://pub.dev/packages/collection
+  collection: 1.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_lints
+  flutter_lints: 2.0.1
+  # https://pub.dev/packages/mockito
+  mockito: 5.3.0
+  # https://pub.dev/packages/build_runner
+  build_runner: 2.3.0
+  # https://pub.dev/packages/uuid
+  uuid: 3.0.6
+
+flutter:

@@ -16,7 +16,7 @@ dependencies:
   # https://pub.dev/packages/js
   js: ^0.6.3
   # https://pub.dev/packages/collection
-  collection: 1.16.0
+  collection: 1.17.1
 
 dev_dependencies:
   flutter_test:
